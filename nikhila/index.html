@@ -9,54 +9,60 @@
     <link rel="stylesheet" href="focss/font-awesome.css">
     <link type="text/css" rel="stylesheet" href="app.css">
 
+
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Bree+Serif|Gloria+Hallelujah|Indie+Flower|Josefin+Sans|Josefin+Slab|Just+Another+Hand|Kaushan+Script|Nunito|Pacifico|Permanent+Marker|Play|Poiret+One|Roboto+Mono|Sedgwick+Ave|Shadows+Into+Light" rel="stylesheet">
 
   </head>
   <body>
 
 
-    <nav class="navbar-fixed-top navbar-dark bg-inverse navbar-full" id="nav-main">
-        <a class="navbar-brand ave" href="#">Ave Volando</a>
+    <nav id="navpill" class="navbar navbar-fixed-top navbar-dark bg-inverse">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <ul class="nav nav-pills">
+      <li class="nav-item">
+        <a class="nav-link" href="#page1">
+            <i class="fa fa-home " aria-hidden="true"></i>
+        </a>
+      </li>
 
-        <ul class="nav navbar-nav pull-right icons" >
-            <li class="nav-item active ">
-                <a class="nav-link" href="#">
-                  <i class="fa fa-home " aria-hidden="true"></i>
-
-                   <span class="sr-only">(current)</span></a>
-            </li>
-
-
-            <li class="nav-item">
-                <a class="nav-link" href="#">
+        <li class="nav-item">
+          <a class="nav-link" href="#ammulu">
                   <i class="fa fa-heart" aria-hidden="true"></i>
-                </a>
-            </li>
+          </a>
+        </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="#slide">
+              <i class="fa fa-picture-o" aria-hidden="true"></i>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#mdo">
+          <i class="fa fa-birthday-cake" aria-hidden="true"></i>
+          </a>
+      </li>
+
+      </li>
+    </ul>
+  </nav>
+  <div data-spy="scroll" data-target="#navpill" data-offset="0">
+    <a href="#page1"></a>
+
+    <a href="#ammulu"></a>
+
+    <a href="#ammu"></a>
+
+    <a href="#ammu1"></a>
+
+    <a href="#fav"></a>
+    <a href="#slide"></a>
+
+  </div>
 
 
-            <li class="nav-item">
-                <a class="nav-link" href="#">
-                  <i class="fa fa-picture-o" aria-hidden="true"></i>
-                </a>
-            </li>
-            
 
-            <li class="nav-item">
-                <a class="nav-link" href="#">
-                  <i class="fa fa-birthday-cake" aria-hidden="true"></i>
-
-                </a>
-            </li>
-        </ul>
-
-    </nav>
-
-
-
-
-
-
-    <section id="cover">
+<section id="page1">
+    <div class="cover">
       <div id="cover-caption">
         <div class="container">
 
@@ -74,56 +80,57 @@
           </div>
         </div>
       </div>
-    </section>
-
+    </div>
+</section>
 
 
     <!--new div-->
-
-    <div class="container-fluid" id="ammu">
-
-          <div class="col-1">
-          <h1 id="pg2">morocon stencil</h1>
-          <p class="pg2">
-
-            Might be wondering what that mean,Right!! <br>
-            Your favorite selfie background.Try to figure it out.
-
-          </p>
-
-        </div>
+<section id="ammulu">
 
 
-    </div>
+  <div id="div1" style="height: 500px;">
+      <div id="div2" style="height: inherit; overflow: auto; border:2px solid rgb(219, 81, 231);">
+          <div id="div3" style="height:1500px;border:2px solid rgb(29, 4, 48);">
 
 
-
-        <div class="container-fluid" id="ammu1">
-
-              <div class="col-2">
-              <h1 id="pg3">morocon stencil</h1>
-              <p class="pg3">
-
-                Might be wondering what that mean,Right!! <br>
-                Your favorite selfie background.Try to figure it out.
-
-              </p>
-
-            </div>
-
-
-        </div>
+                <div class="container-fluid" id="ammu">
+                      <div class="col-1">
+                      <h1 id="pg2">morocon stencil</h1>
+                      <p class="pg2">
+                        Might be wondering what that mean,Right!! <br>
+                        Your favorite selfie background.Try to figure it out.
+                      </p>
+                    </div>
+                </div>
 
 
 
+                    <div class="container-fluid" id="ammu1">
+                          <div class="col-2">
+                          <h1 id="pg3">morocon stencil</h1>
+                          <p class="pg3">
+                            Might be wondering what that mean,Right!! <br>
+                            Your favorite selfie background.Try to figure it out.
+                          </p>
+                        </div>
+                    </div>
 
-          <div class="container-fluid" id="fav">
 
-              <p id="fav_p1">Many more favourites</p>
-                  <div id="favimg">
-                     <img src="img/fav.png" class="img-fluid" alt=""media="screen">
-                  </div>
+
+                      <div class="container-fluid" id="fav">
+
+                          <p id="fav_p1">Many more favourites</p>
+                              <div id="favimg">
+                                 <img src="img/fav.png" class="img-fluid" alt=""media="screen">
+                              </div>
+                      </div>
+
+
           </div>
+      </div>
+  </div>
+
+        </section>
 
 
 
@@ -135,7 +142,7 @@
 
 
 
-
+<section id="slide">
     <div id=".container-fluid">
         <div id="carousel-home" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
@@ -179,10 +186,45 @@
             </a>
         </div>
     </div>
+  </section>
+
+  <footer id="footer-main">
+      <div class="container">
+          <div class="row">
+              <div class="col-sm-3">
+                  <p><i class="fa fa-copyright" aria-hidden="true"></i> copyright 2017.boy thing productions.</p>
+                  <p>coded by <a href="https://github.com/vinaykornapalli">waste fellow</a></p>
+              </div>
+              <div class="col-sm-3">
+                  <ul class="list-unstyled">
+                      <li><p>Thanks a lot</p></li>
+                      <li><a href="https://www.facebook.com/satyakeerthi.cheepurupalli">keerthi</a></li>
+                      <li><a href="https://www.facebook.com/bhavishya.pandiri">bhavisya</a></li>
+                      <li><a href="https://www.facebook.com/vinay.khobragade.37">vinay khobragade</a></li>
+                  </ul>
+              </div>
+              <div class="col-sm-3">
+                  <ul class="list-unstyled">
+                    <li>
+                      <p>wish her at:</p>
+                    </li>
+
+                      <li><a href="https://www.instagram.com/ave_volando/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                      <br>
+                      <li><a href="https://www.facebook.com/nikhila.munipalli"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
 
 
+                  </ul>
+              </div>
+              <div class="col-sm-3">
+                <p>content thakkuva undhi bootstrap 3 ki 4 ki confuse ayya em chestham malli chudu</p>
+                <a href="#page1"><i class="fa fa-arrow-up"  aria-hidden="true"></i></a>
 
 
+              </div>
+          </div>
+      </div>
+  </footer>
 
 
 
