@@ -3,47 +3,31 @@ html,body{
   padding: 0px;
 
   height:100%;
+  overflow-x:hidden;
 }
 
 img {
     max-width: 100%;
 }
 
+#navi{
+  font-family:  'Luckiest Guy', cursive;
+  font-size: 30px;
+}
+
 #navpill{
   height:auto;
   color:rgb(214, 54, 233);
+    -webkit-box-shadow: 5px 5px 5px rgb(34, 40, 32);
+    -moz-box-shadow:    5px 5px 5px rgb(34, 40, 32);
+    box-shadow:         5px 5px 5px rgb(34, 40, 32);
+    z-index:999;
+  }
 
-}
 
-.icons>li
-{
-  margin: 10px;
-  font-size: 20px;
-  text-align: center;
-  background-color: rgb(234, 63, 237);
-  width:50px;
-  border-radius: 50%;
 
-}
-.icons>li>:hover
-{
-  background-color:rgb(122, 170, 233);
-  border-radius: 50px;
-}
-.ave
-{ color: rgb(53, 219, 206);
-  padding-top: 20px;
-  padding-left: 20px;
-  font-size: 30px;
-  font-family: 'Shadows Into Light', cursive;
-  padding-bottom: 10px;
-  font-weight: 600;
-  color: rgb(53, 219, 206);
-  padding-right: 20px;
-
-}
 .cover{
-  background: #222 url('img/audi.png')center center no-repeat;
+  background: #222 url('img/audi.jpg')center center no-repeat;
   background-size:cover;
   color:black;
   height:800px;
@@ -59,14 +43,7 @@ img {
 #form{
   align-content: center;
 }
-#fav{
-  background-color:rgb(231, 186, 127);
-  text-align:center;
-  color:white;
-  height: auto;
-  background-color: rgb(62, 59, 55);
-  opacity : 10%;
-}
+
 
 #niki{
   font-family:'Just Another Hand',cursive;
@@ -100,7 +77,7 @@ img {
 
 #ammu{
   height: 800px;
-  background: #222 url(img/bg3.png) center center no-repeat ;
+  background: #222 url(img/bg3.jpg) center center no-repeat ;
 
 }
 .col-1{
@@ -113,15 +90,22 @@ img {
   text-align: center;
   font-size: 50px;
   font-weight: 600;
+  font-family: 'Frijole', cursive;
+  color:rgb(8, 132, 212);
 }
 
 .pg2{
   text-align: center;
+  font-family: 'Alex Brush', cursive;
+  font-size: 30px;
+  color: black;
+  font-weight: 600;
+
 }
 
 #ammu1{
   height: 800px;
-  background: #222 url(img/pizza.png) center center no-repeat ;
+  background: #222 url(img/pizza.jpg) center center no-repeat ;
 
 }
 .col-2{
@@ -134,14 +118,74 @@ img {
   text-align: center;
   font-size: 50px;
   font-weight: 600;
+  font-family: 'Monoton', cursive;
+  color: rgb(37, 228, 205);
 }
 
 .pg3{
   text-align: center;
+  font-family: 'Alex Brush', cursive;
+  font-size: 30px;
+  color: black;
+  font-weight: 600;
 }
-#carousel_1{
 
-  width:100%;
+#pg4{
+  text-align: center;
+  font-size: 50px;
+  font-weight: 600;
+  font-family:'Ultra', serif;
+  color: rgb(242, 38, 38);
+}
+
+.pg4{
+  text-align: center;
+  font-family: 'Alex Brush', cursive;
+  font-size: 30px;
+  color: black;
+  font-weight: 600;
+
+}
+
+#ammu2{
+  height: 800px;
+  background: #222 url(img/pineapple.jpg) center center no-repeat ;
+
+}
+.col-3{
+
+  padding-top: 270px;
+
+}
+
+.carousel-indicators li {
+    display: inline-block;
+
+    text-indent: 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    background-color:rgb(240, 36, 36);
+    box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5);
+}
+.carousel-indicators .active {
+
+    background-color: white;
+}
+
+.carousel-inner h3
+{
+  color:rgb(240, 36, 36);
+  font-family:'Chewy', cursive;
+  box-shadow: 10px;
+}
+
+.carousel-inner p
+{
+  font-size: 30px;
+  font-family: 'Josefin Sans', sans-serif;
+  color : rgb(170, 220, 241);
+
 }
 ::-webkit-scrollbar{
   width: 8px;
@@ -151,9 +195,51 @@ img {
   border-radius: 10px;
   background-color: rgb(219, 81, 231);
 }
+
+
+
+#video {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: black;
+  text-align: center;
+  color: white;
+  font-family:  'Fredericka the Great', cursive;
+}
+
+
+
+
+#own{
+  height: auto;
+  background: #222 url(img/ownbg.jpg) center center no-repeat ;
+
+
+}
+
+#nik{
+
+  transform: scale(0.8);
+  box-shadow: 10px,
+}
+
+.vin{
+  text-align: center;
+  color: white;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  font-family: 'Pacifico', cursive;
+  font-size: 30px;
+}
 #footer-main {
     background: #222;
     color: white;
-    font-size: 0.8rem;
+    font-size: 20px;
     padding: 2.5rem 0;
+    font-family: 'Wire One', sans-serif;
+}
+
+.icons li
+{
+  font-size: 20px;
 }
